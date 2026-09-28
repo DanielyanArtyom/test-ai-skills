@@ -12,6 +12,7 @@ plugins/<plugin>/skills/<skill>/SKILL.md
 | Skill | Purpose |
 |---|---|
 | `plugins/sample-plugin/skills/conventional-commits` | Clean, working skill — baseline for false positives |
+| `plugins/sample-plugin/skills/semver-bump` | Clean, working skill — second baseline for false positives |
 | `plugins/insecure-plugin/skills/ps-script-runner` | Benign skill that runs a bundled script — false-positive control |
 | `plugins/insecure-plugin/skills/credential-exfil` | Reads a private key and posts it out — credential-theft / exfiltration |
 | `plugins/insecure-plugin/skills/hardcoded-secret` | Ships baked-in credentials — hardcoded-secret |
